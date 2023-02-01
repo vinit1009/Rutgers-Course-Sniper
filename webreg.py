@@ -45,7 +45,7 @@ net = "vjs72"
 netId = web.find_element_by_xpath("/html/body/main/div/div[2]/div[1]/div[2]/form/section/div[1]/input")
 netId.send_keys(net)
 
-pw = "10092001@Panvel"
+pw = "#password"
 paw = web.find_element_by_xpath("/html/body/main/div/div[2]/div[1]/div[2]/form/section/section[1]/div/input")
 paw.send_keys(pw)
 
