@@ -90,7 +90,7 @@ while True:
     asyncio.run(main2())
     x = web.find_element_by_xpath("/html/body/div[1]/p/span[1]").text
     if(x != "14.0"):
-        webhook = DiscordWebhook(url='https://discord.com/api/webhooks/884939374062632970/rkjRBVdw4kTQKPBT3Kvxkk-kkQkSWiDPG3oBo0ab7vOHaD0LX0gtR_HlhUj_sJh797Vn', content='Registered - ')
+        webhook = DiscordWebhook(url='#', content='Registered - ')
         response = webhook.execute()
        
         print("Payload delivered successfully, code {}.")
